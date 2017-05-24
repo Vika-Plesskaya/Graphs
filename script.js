@@ -16,6 +16,12 @@ $(document).ready(function () {
     });
 
     $('.slide').on('click', function () {
+        //if ($('.cols').is(":visible")) {
+        //    $('.cols').slideUp(500);
+        //}
+        //else {
+        //    $('.cols').slideDown(500);
+        //}
         $('.cols').slideToggle();
     });
 
